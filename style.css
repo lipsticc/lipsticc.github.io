@@ -68,4 +68,8 @@ footer {
     .text_desc {
         display: none;
     }
+
+    .logo {
+        width: 100%;
+    }
 }
