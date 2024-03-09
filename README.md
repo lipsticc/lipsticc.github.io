@@ -1,4 +1,4 @@
-<p align = "center"><img src = "logo.webp" width = "250px"></p>
+<p align = "center"><img src = "logo.png" width = "250px"></p>
 <h1 align = "center">Lipsticc</h1>
 
 Lipsti.cc ([lipsti.cc](https://lipsti.cc)) is a product studio building AI experiences to augment human thought and creativity.
