@@ -70,8 +70,10 @@ ul {
 }
 
 .product {
-    border-left: 3px solid black;
-    padding-left: 20px;
+    background-color: #F5F5F5;
+    padding: 15px 25px;
+    border-radius: 20px;
+    margin-bottom: 30px;
 }
 
 .link_title {
