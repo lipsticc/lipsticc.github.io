@@ -80,6 +80,10 @@ ul {
     text-decoration: none;
 }
 
+.link_title:hover {
+    font-style: italic;
+}
+
 footer {
     margin: 75px 0;
     font-size: 12px;
