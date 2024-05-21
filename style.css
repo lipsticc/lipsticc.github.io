@@ -22,13 +22,6 @@ body {
     cursor: not-allowed;
 }
 
-.center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 80vh;
-}
-
 .zucky {
     width: 100%;
     border-radius: 20px;
@@ -88,4 +81,31 @@ footer {
     margin: 75px 0;
     font-size: 12px;
     text-align: center;
+}
+
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .button {
+        display: none;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .logo {
+        margin-top: 30px;
+    }
+
+    .mobile {
+        float: none;
+        display: inline-block;
+    }
+
+    .header {
+        margin-top: 0;
+    }
 }
