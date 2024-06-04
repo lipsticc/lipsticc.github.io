@@ -19,12 +19,13 @@ body {
 }
 
 .button:hover {
-    cursor: not-allowed;
+    opacity: 80%;
 }
 
 .zucky {
     width: 100%;
     border-radius: 20px;
+    margin: 50px 0;
 }
 
 .tagline {
@@ -33,11 +34,11 @@ body {
 
 h1 {
     font-weight: 800;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 p, li {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 a {
