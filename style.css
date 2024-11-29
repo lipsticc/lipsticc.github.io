@@ -1,11 +1,11 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    max-width: 700px;
+    max-width: 600px;
     margin: auto;
     padding: 0 20px;
 }
 
-.button {
+button {
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
@@ -19,26 +19,20 @@ body {
 }
 
 .button:hover {
-    opacity: 80%;
+    cursor: not-allowed;
 }
 
-.zucky {
-    width: 100%;
-    border-radius: 20px;
-    margin: 50px 0;
-}
-
-.tagline {
-    margin-top: 30px;
-}
 
 h1 {
-    font-weight: 800;
-    font-size: 35px;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 28px;
 }
 
 p, li {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 a {
@@ -48,34 +42,11 @@ a {
 a:hover {
     text-decoration: none;
     border: none;
+    font-style: italic;
 }
 
 ul {
     padding-left: 20px;
-}
-
-.header {
-    margin: 50px 0;
-}
-
-.logo {
-    width: 150px;
-    display: inline-block;
-}
-
-.product {
-    background-color: #F5F5F5;
-    padding: 15px 25px;
-    border-radius: 20px;
-    margin-bottom: 30px;
-}
-
-.link_title {
-    text-decoration: none;
-}
-
-.link_title:hover {
-    font-style: italic;
 }
 
 footer {
@@ -84,30 +55,27 @@ footer {
     text-align: center;
 }
 
-.mobile {
-    display: none;
+header {
+    margin-top: 100px;
 }
 
-@media only screen and (max-width: 700px) {
-    .tagline {
-        font-size: 30px;
-    }
+b {
+    font-weight: inherit;
+    color: #ff073a;
+}
 
-    .button {
-        display: none;
-    }
+.product {
+    background-color: #F5F5F5;
+    padding: 15px 30px;
+    padding-right: 35px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
 
-    .header {
-        text-align: center;
-        margin-top: 0;
-    }
+.product > a {
+    text-decoration: none;
+}
 
-    .logo {
-        margin-top: 30px;
-    }
-
-    .mobile {
-        float: none;
-        display: block;
-    }
+.product > .contrib {
+    float: right;
 }
